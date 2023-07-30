@@ -32,7 +32,7 @@ function makeSound(Key){
             var tom1 = new Audio('sounds/sa.mp3');
             setTimeout(function(){
                 tom1.play();
-            },200);
+            },100);
             
         break;
 
@@ -40,41 +40,41 @@ function makeSound(Key){
             var tom2 = new Audio('sounds/ree.mp3');
             setTimeout(function(){
                 tom2.play();
-            },200);
+            },100);
         break;
 
         case 'गा':
             var tom3 = new Audio('sounds/gaa.mp3');
             setTimeout(function(){
                 tom3.play();
-            },200);
+            },100);
         break;
         case 'मा':
             var tom4 = new Audio('sounds/maa.mp3');
             setTimeout(function(){
                 tom4.play();
-            },200);
+            },100);
 
         break;
         case 'पा':
             var snare = new Audio('sounds/paa.mp3');
             setTimeout(function(){
                 snare.play();
-            },200);
+            },100);
 
         break;
         case 'धा':
             var crash = new Audio('sounds/dha.mp3');
             setTimeout(function(){
                 crash.play();
-            },200);
+            },100);
 
         break;
         case 'नी':
             var kick = new Audio('sounds/ni.mp3');
             setTimeout(function(){
                 kick.play();
-            },200);
+            },100);
 
         break;
 
